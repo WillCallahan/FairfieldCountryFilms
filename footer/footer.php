@@ -7,7 +7,7 @@
             <p>Fairfield County Films has six years of videography experience in the professional world. Don't be fooled
                 with how new we are, though. We offer the same great quality as long time running businesses with both
                 new and old cinematography styles that the competition can't provide!</p>
-            <a href="about_us.php" class="button alt icon fa-arrow-circle-right">Learn More</a>
+            <a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/about_us.php" class="button alt icon fa-arrow-circle-right">Learn More</a>
         </section>
         <section>
             <a href="https://www.facebook.com/fairfieldcountyfilms" target="_blank"><img
@@ -16,7 +16,7 @@
             <a href="https://www.youtube.com/channel/UCalY5UxM9KiL4gY4eeQ93Mw" target="_blank"><img
                         style="width:50px; height:auto;" src="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/images/media/youtube-icon.png" alt="YouTube"/></a>
             <a href="mailto:customerservice@fairfieldcountyfilms.com.com?Subject=Video%20Service%20Request"><img
-                        style="width:50px; height:auto; margin-left: 20px;" src="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/images/media/email-icon.png"
+                        style="width:50px; height:auto; margin-left: 20px;" src="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>images/media/email-icon.png"
                         alt="Email"/></a>
         </section>
     </div>

@@ -10,7 +10,7 @@
 
 	.button
 	{
-		-ms-behavior: url('css/ie/PIE.htc');
+		-ms-behavior: url('../../css/ie/PIE.htc');
 	}
 
 	.image
@@ -19,7 +19,7 @@
 	
 		.image img
 		{
-			-ms-behavior: url('css/ie/PIE.htc');
+			-ms-behavior: url('../../css/ie/PIE.htc');
 		}
 		
 /*********************************************************************************/
@@ -28,10 +28,10 @@
 
 	#header-wrapper
 	{
-		background: url('../../images/header.jpg');
+		background: url(../images/bg01.png), url(../../images/october31.jpg);
 		background-position: center center;
 		background-size: cover;
-		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		-ms-behavior: url('../../css/ie/backgroundsize.min.htc');
 	}
 
 	#main-wrapper
@@ -58,7 +58,7 @@
 	
 		#header .inner
 		{
-			-ms-behavior: url('css/ie/PIE.htc');
+			-ms-behavior: url('../../css/ie/PIE.htc');
 		}
 	
 /*********************************************************************************/
@@ -68,11 +68,11 @@
 	.dropotron
 	{
 		box-shadow: 0;
-		-ms-behavior: url('css/ie/PIE.htc');
+		-ms-behavior: url('../../css/ie/PIE.htc');
 	}
 	
 	.dropotron.level-0
 	{
 		box-shadow: 0;
-		-ms-behavior: url('css/ie/PIE.htc');
+		-ms-behavior: url('../../css/ie/PIE.htc');
 	}

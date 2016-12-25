@@ -6,13 +6,20 @@
 
 (function($) {
 
+    function getBaseUrl() {
+        var pathArray = location.href.split( '/' );
+        var protocol = pathArray[0];
+        var host = pathArray[2];
+        return protocol + '//' + host;
+    }
+
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'global':	{ range: '*', href: '/css/style.css' },
-			'desktop':	{ range: '737-', href: '/css/style-desktop.css', containers: 1200, grid: { gutters: 50 } },
-			'1000px':	{ range: '737-1200', href: '/css/style-1000px.css', containers: 1000, grid: { gutters: 35 }, viewport: { width: 1080 } },
-			'mobile':	{ range: '-736', href: '/css/style-mobile.css', containers: '100%', grid: { collapse: true, gutters: 5 }, viewport: { scalable: false } }
+			'global':	{ range: '*', href: getBaseUrl() + '/css/style.css' },
+			'desktop':	{ range: '737-', href: getBaseUrl() + '/css/style-desktop.css', containers: 1200, grid: { gutters: 50 } },
+			'1000px':	{ range: '737-1200', href: getBaseUrl() + '/css/style-1000px.css', containers: 1000, grid: { gutters: 35 }, viewport: { width: 1080 } },
+			'mobile':	{ range: '-736', href: getBaseUrl() + '/css/style-mobile.css', containers: '100%', grid: { collapse: true, gutters: 5 }, viewport: { scalable: false } }
 		},
 		plugins: {
 			layers: {

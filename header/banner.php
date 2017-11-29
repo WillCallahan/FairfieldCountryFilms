@@ -3,7 +3,7 @@
     <div class="inner">
 
         <!-- Logo -->
-        <h1><a style="margin-left: 10px;" href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/index.php" id="logo">Fairfield County Films</a></h1>
+        <h1><a style="margin-left: 10px;" href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/index.php" id="logo">FairfieldCounty Films</a></h1>
 
         <!-- Nav -->
         <nav id="nav">
@@ -13,7 +13,8 @@
                     <a href="/about_us.php">About Us</a>
                     <ul>
                         <li><a href="#">Equipment</a></li>
-                        <li><a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/about/our_promise.php">Our Promise</a></li>
+                        <li><a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/about/our_promise.php">Our
+                                Promise</a></li>
                         <li><a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/about/terms.php">Terms</a>
                             <ul>
                                 <li><a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/contracts/general_contract.pdf" download>General Contract</a></li>
@@ -28,8 +29,9 @@
                         <li><a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/packages/estimate.php">Cost Estimator</a></li>
                     </ul>
                 </li>
-                <li id="samples_tab"><a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/samples.php">Samples</a></li>
-                <li id="contact_tab"><a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/contact_us.php">Contact Us</a></li>
+                <li id="samples_tab">
+                    <a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/samples.php">Samples</a></li>
+                <li id="contact_tab"><a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/contact_us.php">Contact  Us</a></li>
             </ul>
         </nav>
 

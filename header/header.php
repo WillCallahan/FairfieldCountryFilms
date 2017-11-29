@@ -1,9 +1,7 @@
 <link rel="icon" type="/image/x-icon" href="/images/bulb.ico">
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<meta name="description"
-      content="Fairfield County Filmss provides professional video services for various events including weddings, bithdays, ect."/>
-<meta name="keywords"
-      content="video, new fairfield, wedding, bar mitzfa, quality, birthday, cinema, dslr, slr, camcorder, videographer, danbury, ct, connecticut, new england"/>
+<meta name="description" content="Fairfield County Filmss provides professional video services for various events including weddings, bithdays, ect."/>
+<meta name="keywords" content="video, new fairfield, wedding, bar mitzfa, quality, birthday, cinema, dslr, slr, camcorder, videographer, danbury, ct, connecticut, new england"/>
 <script src="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/css/ie/html5shiv.js"></script><![endif]-->
 <script src="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/js/jquery.min.js"></script>
 <script src="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/js/jquery.dropotron.min.js"></script>
@@ -32,19 +30,19 @@
     //This is used to select the current tab
     function tab_selector() {
         var class_selector = "current_page_item";
-        if (document.URL.search("index") != -1) {
+        if (document.URL.search("index") !== -1) {
             document.getElementById("home_tab").className = class_selector;
         }
-        else if (document.URL.search("about") != -1) {
+        else if (document.URL.search("about") !== -1) {
             document.getElementById("about_tab").className = class_selector;
         }
-        else if (document.URL.search("package") != -1) {
+        else if (document.URL.search("package") !== -1) {
             document.getElementById("packages_tab").className = class_selector;
         }
-        else if (document.URL.search("sample") != -1) {
+        else if (document.URL.search("sample") !== -1) {
             document.getElementById("samples_tab").className = class_selector;
         }
-        else if (document.URL.search("contact") != -1) {
+        else if (document.URL.search("contact") !== -1) {
             document.getElementById("contact_tab").className = class_selector;
         }
     }

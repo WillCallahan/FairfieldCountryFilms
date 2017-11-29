@@ -7,7 +7,8 @@
             <p>Fairfield County Films has six years of videography experience in the professional world. Don't be fooled
                 with how new we are, though. We offer the same great quality as long time running businesses with both
                 new and old cinematography styles that the competition can't provide!</p>
-            <a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/about_us.php" class="button alt icon fa-arrow-circle-right">Learn More</a>
+            <a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/about_us.php" class="button alt icon fa-arrow-circle-right">Learn
+                More</a>
         </section>
         <section>
             <a href="https://www.facebook.com/fairfieldcountyfilms" target="_blank"><img
